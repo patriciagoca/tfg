@@ -27,7 +27,7 @@ rule win_samplebin_thatprogram
         and $that_program
         and $copia_carga
 
-        // Mímimo una opción (entorpece_analisis, antianalisis, (MZ o entropía alta en .data))
+        // Mínimo una opción (entorpece_analisis, antianalisis, (MZ o entropía alta en .data))
         and (
             $funcion_entorpece_analisis
             or
